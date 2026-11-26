@@ -1,0 +1,8 @@
+# Sanofysi
+
+> Sanofysi is the company behind two consumer brands: Sanofysi Prebiotic Syrup, a liquid fibre supplement, and Sacre Crown, hair building fibres. It delivers across Africa and worldwide, and has more products in development. Each brand has its own shop on a subdomain of sanofysi.com.
+
+## Brands
+
+- [Sanofysi Prebiotic Syrup](https://syrup.sanofysi.com/): a lightly sweet liquid fibre supplement made with 95% FOS. One 15 mL spoon provides 14.3 g of fibre, 1.6 g of sugars and 35 calories. 290 mL bottle, about 19 servings.
+- [Sacre Crown](https://sacrecrown.sanofysi.com/): "Real Hair Solutions". Keratin hair building fibres (hair fibres for thinning hair, bald spots and hairlines; black, 27.5 g) for men and women that cover thinning areas, and a Hair Perfecting Kit with fibres, hold spray and applicator.

@@ -1,0 +1,100 @@
+{
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.sanofysi.com"
+        }
+      ],
+      "destination": "https://sanofysi.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/fr",
+      "destination": "https://syrup.sanofysi.com/fr/",
+      "permanent": true
+    },
+    {
+      "source": "/fr/:path*",
+      "destination": "https://syrup.sanofysi.com/fr/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/sw",
+      "destination": "https://syrup.sanofysi.com/sw/",
+      "permanent": true
+    },
+    {
+      "source": "/sw/:path*",
+      "destination": "https://syrup.sanofysi.com/sw/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/delivery.html",
+      "destination": "https://syrup.sanofysi.com/delivery.html",
+      "permanent": true
+    },
+    {
+      "source": "/fibermaxxing-explained.html",
+      "destination": "https://syrup.sanofysi.com/fibermaxxing-explained.html",
+      "permanent": true
+    },
+    {
+      "source": "/healthy-sugar-alternatives-for-tea-and-coffee.html",
+      "destination": "https://syrup.sanofysi.com/healthy-sugar-alternatives-for-tea-and-coffee.html",
+      "permanent": true
+    },
+    {
+      "source": "/high-fibre-breakfast-ideas.html",
+      "destination": "https://syrup.sanofysi.com/high-fibre-breakfast-ideas.html",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-fibre-per-day.html",
+      "destination": "https://syrup.sanofysi.com/how-much-fibre-per-day.html",
+      "permanent": true
+    },
+    {
+      "source": "/sanofysi-journal.html",
+      "destination": "https://syrup.sanofysi.com/sanofysi-journal.html",
+      "permanent": true
+    },
+    {
+      "source": "/sanofysi-prebiotic-syrup.html",
+      "destination": "https://syrup.sanofysi.com/sanofysi-prebiotic-syrup.html",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-a-prebiotic.html",
+      "destination": "https://syrup.sanofysi.com/what-is-a-prebiotic.html",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}
