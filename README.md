@@ -1,15 +1,15 @@
 # Sano
 
-The three Sanofysi websites in one repository. Each folder is a finished static site with no build step.
+Three static sites, one per folder. No build step.
 
-| Folder | Live address |
+| Folder | Clue |
 |---|---|
-| `sanofysi.com/` | https://sanofysi.com (landing page) |
-| `syrup.sanofysi.com/` | https://syrup.sanofysi.com (Prebiotic Syrup shop) |
-| `sacrecrown.sanofysi.com/` | https://sacrecrown.sanofysi.com (Sacre Crown shop) |
+| `door/` | The front door: where everyone arrives first |
+| `drizzle/` | The one you pour into tea |
+| `halo/` | The one that sits on your head |
 
 ## Deploying on Vercel
 
-Import this repository three times, once per site. For each project set **Root Directory** to the folder name and add that folder's domain. Each folder has its own `vercel.json`.
+Import this repository three times, once per folder. For each project set **Root Directory** to the folder name and add its domain. Each folder has its own `vercel.json`.
 
-Deploy `syrup.sanofysi.com` first and `sanofysi.com` last: the landing page redirects old shop links to the syrup subdomain.
+Deploy `drizzle` first and `door` last: `door` redirects old links to `drizzle`.
